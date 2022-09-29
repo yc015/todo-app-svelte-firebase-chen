@@ -26,6 +26,4 @@ firebase.initializeApp(firebaseConfig);
 export const auth = firebase.auth();
 export const googleProvider = new firebase.auth.GoogleAuthProvider();
 
-export const db = firebase.firestore(app, {
-    experimentalForceLongPolling: true,
-  });
+export const db = firebase.firestore();

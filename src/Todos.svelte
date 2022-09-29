@@ -46,8 +46,6 @@
     {/each}
 </ul>
 
-<div>
-    <input bind:value={text}>
-</div>
+<input bind:value={text}>
 
 <button on:click={add}>Add Task</button>

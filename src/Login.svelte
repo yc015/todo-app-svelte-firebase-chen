@@ -21,19 +21,18 @@
     }
 </style>
 
-
 <section>
-{#if user}
-    <Profile {...user} />
-    <button on:click={ () => auth.signOut() }>Logout</button>
-    <hr>
-    <Todos uid={user.uid} />
-{:else}
-    <br>Welcome to the TODO APP! <br>
-    Sign in with your Google Credentials and <br> 
-    start to build your action list today! <br><br>
-	<button on:click={login}>
-		Sign in with Google
-	</button>
-{/if}
+    {#if user}
+        <Profile {...user} />
+        <button on:click={ () => auth.signOut() } class="button">Logout</button>
+        <hr>
+        <Todos uid={user.uid} />
+    {:else}
+        <br>Welcome to the TODO APP! <br>
+        Sign in with your Google Credentials and <br> 
+        start to build your action list today! <br><br>
+        <button on:click={login} class="button">
+            Signin with Google
+        </button>
+    {/if}
 </section>
