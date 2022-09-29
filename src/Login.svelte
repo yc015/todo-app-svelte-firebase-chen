@@ -14,6 +14,14 @@
     }
 </script>
 
+<style>
+	section {
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 3%;
+    }
+</style>
+
+
 <section>
 {#if user}
     <Profile {...user} />
@@ -21,8 +29,11 @@
     <hr>
     <Todos uid={user.uid} />
 {:else}
+    <br>Welcome to the TODO APP! <br>
+    Sign in with your Google Credentials and <br> 
+    start to build your action list today! <br><br>
 	<button on:click={login}>
-		Signin with Google
+		Sign in with Google
 	</button>
 {/if}
 </section>

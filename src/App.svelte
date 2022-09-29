@@ -13,6 +13,8 @@
 	main {
 	  margin: 20px;
 	  background-color: rgba(145, 110, 210, 0.6);
+	  height: 100%;
+	  width: 100%;
 	}
 	div {
 		display: flex;

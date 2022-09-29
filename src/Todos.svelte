@@ -8,7 +8,7 @@
     export let uid;
 
     // Form Text
-    let text = 'some task';
+    let text = 'Your task goes here...';
 
     // Query requires an index, see screenshot below
     const query = db.collection('todos').where('uid', '==', uid).orderBy('created');
