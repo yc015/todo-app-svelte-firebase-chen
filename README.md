@@ -27,6 +27,6 @@ Go to the page [https://todo-app-svelte-chen.herokuapp.com/](https://todo-app-sv
 7. To Log out from your account, click the Logout button under your profile.
 
 ## References
-The creation of this todo app following the instructions in this website: "Svelte Realtime Todo List with Firebase," Jeff Delaney, [https://fireship.io/lessons/svelte-v3-overview-firebase/](https://fireship.io/lessons/svelte-v3-overview-firebase/)  
-and this video: "Svelte 3 Reaction & QuickStart Tutorial," Fireship, [https://www.youtube.com/watch?v=043h4ugAj4c](https://www.youtube.com/watch?v=043h4ugAj4c)  
-and the source code from this GitHub Repository: "182-svelte-firebase," [Jeff Delaney](https://github.com/codediodeio), [https://github.com/fireship-io/182-svelte-firebase](https://github.com/fireship-io/182-svelte-firebase)  
+[1] The creation of this todo app following the instructions in this website: "Svelte Realtime Todo List with Firebase," Jeff Delaney, [https://fireship.io/lessons/svelte-v3-overview-firebase/](https://fireship.io/lessons/svelte-v3-overview-firebase/)  
+[2] and this video: "Svelte 3 Reaction & QuickStart Tutorial," Fireship, [https://www.youtube.com/watch?v=043h4ugAj4c](https://www.youtube.com/watch?v=043h4ugAj4c)  
+[3] and the source code from this GitHub Repository: "182-svelte-firebase," [Jeff Delaney](https://github.com/codediodeio), [https://github.com/fireship-io/182-svelte-firebase](https://github.com/fireship-io/182-svelte-firebase)  

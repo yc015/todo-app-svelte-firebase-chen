@@ -1,14 +1,10 @@
-// Import the functions you need from the SDKs you need
+// Import the firebase and authentification functions
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// Firebase configuration that is used to connect with the database
+// Get them by logging into the Firebase console. project settings -> General -> your apps
 const firebaseConfig = {
     apiKey: "AIzaSyB7orar6LD8vmKvZrLfth8ulJp2LXUP2Lo",
     authDomain: "todo-app-chen-c7efe.firebaseapp.com",
@@ -17,13 +13,15 @@ const firebaseConfig = {
     messagingSenderId: "68772892958",
     appId: "1:68772892958:web:a92616c82e7117058cb90f",
     measurementId: "G-GR6M88NPLY"
-  };  
+};  
 
 // Initialize Firebase
-
 firebase.initializeApp(firebaseConfig);
 
+// Create the authentification service with Firebase
 export const auth = firebase.auth();
+// Get the Google authentification provider. This will be used for logging in with Google credentials
 export const googleProvider = new firebase.auth.GoogleAuthProvider();
 
+// Connect with the firebase database
 export const db = firebase.firestore();
